@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    color: darkred;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1,h2{
+    color: gold;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    background-image: url('jordans 1st.jpg'); /* Specify the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 20px; /* Adjust padding as needed */
+
+footer {
+    background-image: url('jordans.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
